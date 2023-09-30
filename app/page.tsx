@@ -1,10 +1,8 @@
-import React from 'react'
-
 function HomePage() {
   return (
     <div>
-      <h1>
-        Page Title
+      <h1 className="text-4xl">
+        Welcome to Code Terra Blog!
       </h1>
     </div>
   )
