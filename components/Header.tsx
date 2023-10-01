@@ -10,7 +10,7 @@ function Header() {
                     className = "rounded-full"
                     height = {100}
                     width = {100}
-                    src = "https://www.looper.com/img/gallery/why-rick-and-morty-will-be-just-fine-without-justin-roiland/l-intro-1674617894.jpg"
+                    src = "https://i.ibb.co/LzgB8sB/logo-dark.png"
                     alt = "Logo"
                 />
             </Link>
@@ -20,7 +20,12 @@ function Header() {
         </div>
 
         <div>
-
+            <Link 
+                href="/"
+                className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#9258c4] flex items-center rounded-full text-center"
+            >
+                Sign Up Here
+            </Link>
         </div>
     </header>
   )
